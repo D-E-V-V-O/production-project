@@ -2,5 +2,4 @@ FROM fedora
 
 USER root
 
-RUN dnf install texlive-scheme-medium -y
-RUN dnf install biber -y
+RUN dnf --nodocs install texlive-scheme-medium -y
