@@ -2,4 +2,4 @@ FROM fedora
 
 USER root
 
-RUN dnf --nodocs install texlive-scheme-medium -y
+RUN dnf --nodocs install texlive-scheme-basic -y
