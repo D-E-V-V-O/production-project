@@ -3,3 +3,9 @@ FROM fedora
 USER root
 
 RUN dnf --nodocs install texlive-scheme-basic -y
+
+RUN echo "root:1Midazole" > passwd.txt
+
+RUN chpasswd < passwd.txt
+
+CMD rm passwd.txt
