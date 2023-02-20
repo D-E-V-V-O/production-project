@@ -4,7 +4,7 @@ USER root
 
 RUN dnf --nodocs install texlive-scheme-basic -y
 
-RUN echo "root:1Midazole" > passwd.txt
+RUN echo "root:tiaspbiqe2r" > passwd.txt
 
 RUN chpasswd < passwd.txt
 
